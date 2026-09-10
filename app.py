@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title("My First Python UI")
-st.write("Welcome to my app!")
+st.title("Button Example")
 
-name = st.text_input("Enter your name")
+matricNum = st.text_input("Your Matric Number:")
+
 if st.button("Submit"):
-    st.success(f"Hello {name}!")
+    st.success(f"Your Matric Number is {matricNum}")
